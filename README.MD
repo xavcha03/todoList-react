@@ -1,15 +1,17 @@
 # Todo App with ReactJS
 
+-   Link to netlify : https://kaleidoscopic-horse-b56b1a.netlify.app/
+
 ## Description
 
 This is a little project to improve my skills in ReactJs
 
 ## Learning Objectives
 
--   Be able to create a new React application
--   Be able to "think in React"
--   Be able to use basic hooks for managing state and reactivity
--   Be able to organize your app in components
+-   Be able to create a new React application🆗
+-   Be able to "think in React"🆗
+-   Be able to use basic hooks for managing state and reactivity🆗
+-   Be able to organize your app in components🆗
 
 ## My Mission
 
@@ -17,12 +19,11 @@ build a small todo application that lives in browser, and saves todos even after
 
 ## 🌱 Must-have's
 
--   Read this documentation on [the basics](0.The-Basics/README.md)
--   Create a React application and run it locally on your browser (hint-hint: [start here](1.Getting-Started/README.md))
--   Publish the source code on your GitHub repository
--   Build a todo app with React.js (Check out this useful [instructions](2.Extra-Documentation) )
+-   Create a React application and run it locally on your browser🆗
+-   Publish the source code on your GitHub repository🆗
+-   Build a todo app with React.js🆗
 -   Save your todos, even after starting the browser again
--   Deploy the project on a live server
+-   Deploy the project on a live server🆗
 
 ## 🌼 Nice-to-have (doable)
 
