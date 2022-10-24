@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
+import './App.css';
 import Form from './components/form';
 import Todos from './components/todos';
-import './App.css';
-
 
 function App() {
 
@@ -16,9 +15,9 @@ function App() {
 
   useEffect(() => {
     //Get localStorage
-    let localTodos = localStorage.getItem("todos");
-    console.log(JSON.parse(localTodos));
-    setTodos(JSON.parse(localTodos));
+    //let localTodos = localStorage.getItem("todos");
+    //console.log(JSON.parse(localTodos));
+    setTodos(todoList);
 
   }, [])
 
@@ -32,7 +31,8 @@ function App() {
 
     setTodos([...todos, newTodo])
     //updateLocalStorage
-    localStorage.setItem('todos', JSON.stringify(todos));
+    //localStorage.removeItem('todos');
+    //localStorage.setItem('todos', JSON.stringify(todos));
   }
 
   let handleRemoveTodo = (index) => {
