@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './app.css';
+import './App.css';
 import Form from './components/form';
 import Todos from './components/todos';
 
