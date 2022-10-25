@@ -16,6 +16,11 @@
 	gap: 1em;
 }
 
+.form__label{
+	display: flex;
+	flex-direction: column;
+}
+
 ul {
 	height: 500px;
 	width: 100%;
@@ -24,11 +29,30 @@ ul {
 	flex-direction: column;
 	align-items: center;
 	gap: 1em;
-	border: 1px solid #227c9d;
+	border: 1px solid #e31700;
+	padding: 1em;
 }
 
 li {
-	width: 50%;
+	padding: 1em;
+	width: 100%;
 	display: flex;
 	justify-content: space-between;
+	background-color: #11445b;
+	border-radius: 1em;
+	color: #cbebf7;
+	display: flex;
+	align-items: center;
+}
+
+.form__btn{
+	padding: 0.5em 1em;
+	background-image: url('./assets/trash.svg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+	background-color: transparent;
+	border:none;
+	height: 2em;
+
 }
